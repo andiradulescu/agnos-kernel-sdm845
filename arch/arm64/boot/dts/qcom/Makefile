@@ -3,7 +3,7 @@
 #dtb-$(CONFIG_ARCH_QCOM)	+= apq8096-db820c.dtb
 
 dtb-$(CONFIG_ARCH_SDM845) += comma_tici.dtb
-dtb-$(CONFIG_ARCH_SDM845) += comma_tizi.dtb
+# dtb-$(CONFIG_ARCH_SDM845) += comma_tizi.dtb
 
 always		:= $(dtb-y)
 subdir-y	:= $(dts-dirs)
